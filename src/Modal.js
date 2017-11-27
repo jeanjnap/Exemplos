@@ -49,6 +49,7 @@ const styles = StyleSheet.create({
 
   modal: {
     position: 'absolute',
+    borderRadius: 10,
     backgroundColor: '#9b59b6',
     justifyContent: 'center',
     alignItems: 'center',
@@ -58,6 +59,7 @@ const styles = StyleSheet.create({
   },
 
   content: {
+    borderRadius: 10,
     alignItems: 'center',
     zIndex: 1,
     backgroundColor: '#2ecc71',
