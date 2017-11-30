@@ -3,7 +3,7 @@ import {
   View
 } from 'react-native';
 
-import Contador from './src/SideMenu'
+import Contador from './src/DrawerNavigator'
 
 export default class Clock extends React.Component {
 
