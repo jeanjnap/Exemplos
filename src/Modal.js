@@ -1,80 +1,81 @@
 import React, { Component } from 'react';
-import { Text, TouchableOpacity, View } from 'react-native';
+import { 
+    Text,
+    TouchableOpacity,
+    View,
+    StyleSheet,
+    Button,
+ } from 'react-native';
 import Modal from 'react-native-modal';
 
-import styles from './stylesModal';
 
 export default class Example extends Component {
   state = {
     visibleModal: null,
   };
 
-  _renderButton = (text, onPress) => (
-    <TouchableOpacity onPress={onPress}>
-      <View style={styles.button}>
-        <Text>{text}</Text>
-      </View>
-    </TouchableOpacity>
-  );
-
   _renderModalContent = () => (
     <View style={styles.modalContent}>
-      <Text>Hello!</Text>
-      {this._renderButton('Close', () => this.setState({ visibleModal: null }))}
+      <Text>Texto do Modal</Text>
+        <TouchableOpacity onPress={ ()=> this.setState({visibleModal: null})}>
+            <View style={styles.button}>
+                <Text style={{color: 'white',fontWeight: 'bold'}}>Fechar Modal</Text>
+            </View>
+        </TouchableOpacity>
     </View>
   );
 
   render() {
     return (
       <View style={styles.container}>
-        {this._renderButton('Default modal', () => this.setState({ visibleModal: 1 }))}
-        {this._renderButton('Sliding from the sides', () => this.setState({ visibleModal: 2 }))}
-        {this._renderButton('A slower modal', () => this.setState({ visibleModal: 3 }))}
-        {this._renderButton('Fancy modal!', () => this.setState({ visibleModal: 4 }))}
-        {this._renderButton('Bottom half modal', () => this.setState({ visibleModal: 5 }))}
-        {this._renderButton('Modal that can be closed on backdrop press', () =>
-          this.setState({ visibleModal: 6 }),
-        )}
+        <Text>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a elit ac velit suscipit posuere feugiat in lacus. Donec consequat mauris id augue dictum, non tincidunt purus malesuada. Fusce commodo erat lectus. Praesent molestie libero ac erat dignissim, vitae pellentesque libero tempus. Proin egestas eget tortor ut vulputate. Sed aliquam ex et tortor aliquam tempus. Cras varius commodo vestibulum. Donec vel sagittis eros. Cras eu diam sagittis, finibus eros eget, suscipit tellus. Donec ultricies mi mauris, id sodales urna aliquet eget. Sed ultrices, lorem sed scelerisque pulvinar, urna mi laoreet lectus, sit amet pharetra enim libero eu felis. Curabitur est leo, fringilla vel erat eu, ornare finibus dui. Morbi id egestas risus. Nullam porta faucibus dolor, in blandit libero. Pellentesque at gravida ligula. Maecenas eget egestas augue.
+
+            Cras nisl turpis, laoreet eu faucibus volutpat, vulputate in sem. Cras vitae diam enim. Nulla facilisi. Vivamus pulvinar quis metus ut sollicitudin. Morbi rhoncus efficitur tellus eu interdum. Morbi quis faucibus diam, et ultricies sapien. In pharetra justo metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque pellentesque mi vel nisl mattis ultricies. Donec aliquet urna sed tellus porta sagittis. Praesent tortor sem, varius sed ipsum vel, vehicula maximus massa.
+
+            Sed ac consectetur sapien, a facilisis sapien. Curabitur id sodales eros, at cursus lacus. Vivamus ac felis feugiat, fringilla ex nec, pulvinar metus. Phasellus volutpat lorem mauris, ac lacinia quam lobortis a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam euismod sapien rutrum orci malesuada, sed efficitur nunc congue. Ut nec enim condimentum, tincidunt metus eleifend, vehicula justo. Maecenas consequat molestie quam ut finibus. Mauris et molestie nulla, vel placerat quam. Etiam et finibus sapien. Nam ante dolor, pharetra laoreet pellentesque et, molestie at lectus.
+        </Text>
+        <TouchableOpacity onPress={()=> this.setState({visibleModal: 1})}>
+            <View style={styles.button}>
+                <Text style={{color: 'white',fontWeight: 'bold'}}>Abrir modal</Text>
+            </View>
+        </TouchableOpacity>
         <Modal isVisible={this.state.visibleModal === 1}>{this._renderModalContent()}</Modal>
-        <Modal
-          isVisible={this.state.visibleModal === 2}
-          animationIn={'slideInLeft'}
-          animationOut={'slideOutRight'}
-        >
-          {this._renderModalContent()}
-        </Modal>
-        <Modal
-          isVisible={this.state.visibleModal === 3}
-          animationInTiming={2000}
-          animationOutTiming={2000}
-          backdropTransitionInTiming={2000}
-          backdropTransitionOutTiming={2000}
-        >
-          {this._renderModalContent()}
-        </Modal>
-        <Modal
-          isVisible={this.state.visibleModal === 4}
-          backdropColor={'red'}
-          backdropOpacity={1}
-          animationIn={'zoomInDown'}
-          animationOut={'zoomOutUp'}
-          animationInTiming={1000}
-          animationOutTiming={1000}
-          backdropTransitionInTiming={1000}
-          backdropTransitionOutTiming={1000}
-        >
-          {this._renderModalContent()}
-        </Modal>
-        <Modal isVisible={this.state.visibleModal === 5} style={styles.bottomModal}>
-          {this._renderModalContent()}
-        </Modal>
-        <Modal
-          isVisible={this.state.visibleModal === 6}
-          onBackdropPress={() => this.setState({ visibleModal: null })}
-        >
-          {this._renderModalContent()}
-        </Modal>
+        
       </View>
     );
   }
 }
+
+
+
+
+const styles =  StyleSheet.create({
+    container: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      paddingHorizontal: 10,
+    },
+    button: {
+      backgroundColor: '#3498db',
+      padding: 12,
+      margin: 16,
+      justifyContent: 'center',
+      alignItems: 'center',
+      borderRadius: 4,
+      borderColor: 'rgba(0, 0, 0, 0.1)',
+    },
+    modalContent: {
+      backgroundColor: 'white',
+      padding: 22,
+      justifyContent: 'center',
+      alignItems: 'center',
+      borderRadius: 4,
+      borderColor: 'rgba(0, 0, 0, 0.1)',
+    },
+    bottomModal: {
+      justifyContent: 'flex-end',
+      margin: 0,
+    },
+  });
