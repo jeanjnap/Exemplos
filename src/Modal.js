@@ -17,6 +17,17 @@ export default class Example extends Component {
   _renderModalContent = () => (
     <View style={styles.modalContent}>
       <Text>Texto do Modal</Text>
+        <TouchableOpacity onPress={ ()=> this.setState({visibleModal: 2})}>
+            <View style={styles.button}>
+                <Text style={{color: 'white',fontWeight: 'bold'}}>Ir para o segundo Modal</Text>
+            </View>
+        </TouchableOpacity>
+    </View>
+  );
+
+  _renderModalContent2 = () => (
+    <View style={styles.modalContent}>
+      <Text>Segundo Modal</Text>
         <TouchableOpacity onPress={ ()=> this.setState({visibleModal: null})}>
             <View style={styles.button}>
                 <Text style={{color: 'white',fontWeight: 'bold'}}>Fechar Modal</Text>
@@ -41,6 +52,8 @@ export default class Example extends Component {
             </View>
         </TouchableOpacity>
         <Modal isVisible={this.state.visibleModal === 1}>{this._renderModalContent()}</Modal>
+
+        <Modal isVisible={this.state.visibleModal === 2}>{this._renderModalContent2()}</Modal>
         
       </View>
     );
