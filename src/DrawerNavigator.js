@@ -13,9 +13,13 @@ const HomeScreen = ({ navigation }) => (
     </View>
   );
 
-const ProfileScreen = () => (
+const ProfileScreen = ({ navigation }) => (
   <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
     <Text>Profile Screen</Text>
+    <Button
+        onPress={() => navigation.navigate('DrawerToggle')}
+        title="Open Drawer"
+      />
   </View>
 );
 

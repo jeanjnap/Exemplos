@@ -9,12 +9,13 @@ import {
 import SideMenu from 'react-native-side-menu';
 import Menu from './Menu';
 
-const image = require('./img/flash.jpg');
+import Icon from 'react-native-vector-icons/dist/FontAwesome';
+
 
 const styles = StyleSheet.create({
   button: {
+    alignSelf: 'flex-end',
     position: 'absolute',
-    top: 20,
     padding: 10,
   },
   caption: {
@@ -96,9 +97,10 @@ export default class Basic extends Component {
           onPress={this.toggle}
           style={styles.button}
         >
-          <Image
-            source={image}
-            style={{ width: 32, height: 32 }}
+          <Icon 
+            name="bars" 
+            size={30}
+            color="#000"
           />
         </TouchableOpacity>
       </SideMenu>

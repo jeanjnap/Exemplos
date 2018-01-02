@@ -3,6 +3,7 @@ import {
   Text,
   View,
   StyleSheet,
+  Image,
 } from 'react-native';
 
 import Login from './Login';
@@ -35,7 +36,11 @@ export default class Cont extends React.Component {
 
   	var text='';
 
-    var TelaAtual = <View style={styles.container}><Text>Trocando de tela em: {this.state.val}.</Text></View>
+    var TelaAtual = 
+    <View style={styles.container}>
+      <Text>Trocando de tela em: {this.state.val}.</Text>
+      <Image source={{uri: 'http://laoblogger.com/images/clip-art-splash-6.jpg'}} style={{width: 200, height: 200}} />
+    </View>
 
 
   	if(v<=0)
