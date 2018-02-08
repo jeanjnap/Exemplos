@@ -8,16 +8,24 @@
         "source": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\anim\\catalyst_fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\Jean\\React\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\Jean\\React\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_out.xml"
+        "merged": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_push_up_out.xml",
+        "source": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\anim\\catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "C:\\Users\\Jean\\React\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
         "source": "C:\\Users\\Jean\\React\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_enter.xml"
+        "merged": "C:\\Users\\Jean\\React\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Jean\\React\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
@@ -32,16 +40,20 @@
         "source": "C:\\Users\\Jean\\React\\Samples\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\anim\\catalyst_fade_in.xml"
     },
     {
+        "merged": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_fade_out.xml",
+        "source": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\anim\\catalyst_fade_out.xml"
+    },
+    {
         "merged": "C:\\Users\\Jean\\React\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
         "source": "C:\\Users\\Jean\\React\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "C:\\Users\\Jean\\React\\Samples\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\Jean\\React\\Samples\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_top.xml"
-    },
-    {
         "merged": "C:\\Users\\Jean\\React\\Samples\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
         "source": "C:\\Users\\Jean\\React\\Samples\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\React\\Samples\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Jean\\React\\Samples\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "C:\\Users\\Jean\\React\\Samples\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
@@ -50,6 +62,14 @@
     {
         "merged": "C:\\Users\\Jean\\React\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_slide_down.xml",
         "source": "C:\\Users\\Jean\\React\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\anim\\catalyst_slide_down.xml"
+    },
+    {
+        "merged": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_push_up_in.xml",
+        "source": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\anim\\catalyst_push_up_in.xml"
     },
     {
         "merged": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_push_up_in.xml",
@@ -72,6 +92,10 @@
         "source": "C:\\Users\\Jean\\React\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_top.xml"
     },
     {
+        "merged": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_slide_down.xml",
+        "source": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\anim\\catalyst_slide_down.xml"
+    },
+    {
         "merged": "C:\\Users\\Jean\\React\\Samples\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_slide_down.xml",
         "source": "C:\\Users\\Jean\\React\\Samples\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\anim\\catalyst_slide_down.xml"
     },
@@ -80,16 +104,24 @@
         "source": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_slide_up.xml",
+        "source": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\anim\\catalyst_slide_up.xml"
     },
     {
         "merged": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_slide_up.xml",
-        "source": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\anim\\catalyst_slide_up.xml"
+        "merged": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
@@ -110,6 +142,14 @@
     {
         "merged": "C:\\Users\\Jean\\React\\Samples\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
         "source": "C:\\Users\\Jean\\React\\Samples\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "C:\\Users\\Jean\\React\\Samples\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
@@ -136,6 +176,14 @@
         "source": "C:\\Users\\Jean\\React\\Samples\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
+        "merged": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_slide_up.xml",
+        "source": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\anim\\catalyst_slide_up.xml"
+    },
+    {
         "merged": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
         "source": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_fade_out.xml"
     },
@@ -152,6 +200,10 @@
         "source": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_top.xml"
     },
     {
+        "merged": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
         "merged": "C:\\Users\\Jean\\React\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_fade_in.xml",
         "source": "C:\\Users\\Jean\\React\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\anim\\catalyst_fade_in.xml"
     },
@@ -160,8 +212,16 @@
         "source": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\anim\\catalyst_slide_down.xml"
     },
     {
+        "merged": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
         "merged": "C:\\Users\\Jean\\React\\Samples\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_push_up_in.xml",
         "source": "C:\\Users\\Jean\\React\\Samples\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\anim\\catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "C:\\Users\\Jean\\React\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_slide_up.xml",
@@ -174,6 +234,10 @@
     {
         "merged": "C:\\Users\\Jean\\React\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_push_up_in.xml",
         "source": "C:\\Users\\Jean\\React\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\anim\\catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_fade_in.xml",
+        "source": "D:\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.50.3\\res\\anim\\catalyst_fade_in.xml"
     },
     {
         "merged": "C:\\Users\\Jean\\Documents\\GitHub\\Exemplos\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_push_up_out.xml",
